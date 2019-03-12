@@ -75,7 +75,7 @@ let spendable = ref false
 
 (** Gas limit for transactions and originations. The default value is
     the maximum allowed by Tezos at the moment. *)
-let gas_limit = ref "400000"
+let gas_limit = ref "5000000"
 
 (** The storage limit for transactions and originations. The default
     value is the maximum allowed by Tezos at the moment. *)
